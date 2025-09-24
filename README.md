@@ -11,11 +11,11 @@ A full-stack construction management system built with **React** (frontend) and 
 
 ## 🧰 Tech Stack
 
-- **Frontend**: React (JSX, CSS)
-- **Backend**: Python (Flask or similar)
-- **Machine Learning**: Scikit-learn, Random Forest Regression
-- **Data**: CSV / JSON
-- **Version Control**: Git & GitHub
+- Frontend: React (JSX, CSS)
+- Backend: Python (Flask or similar)
+- Machine Learning: Scikit-learn, Random Forest Regression
+- Data: CSV / JSON
+- Version Control: Git & GitHub
 
 
 ---
@@ -115,7 +115,7 @@ Runs backend server on [http://localhost:5000](http://localhost:5000)
 
 ## 🙋‍♀️ Author
 
-* **Shravani** – [GitHub Profile](https://github.com/S14BF)
+* **Janhavi** – [GitHub Profile](https://github.com/janhaviotari10)
 
 ---
 
