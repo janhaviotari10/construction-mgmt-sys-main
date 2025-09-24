@@ -1,0 +1,170 @@
+/* Gradient Background */
+
+  
+  /* Home Icon */
+  .home-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .home-icon:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+  }
+  
+  /* General Container */
+  .gallery-container {
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.856); /* Black with 50% transparency */
+  }
+  
+  /* Header Section */
+  .gallery-header {
+    background: rgba(86, 84, 84, 0.2);
+    backdrop-filter: blur(10px);
+    color: rgb(247, 242, 242);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .gallery-header p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Carousel Styling */
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Image Styling */
+  .image-container-gallery {
+    width: 450px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container-gallery:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-container-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Project Description */
+  .project-description {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    max-width: 500px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Carousel Navigation Buttons */
+  .carousel-button {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #007bff;
+    border: none;
+    font-size: 24px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px;
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.1);
+  }
+  
+  .carousel-button.prev {
+    position: absolute;
+    left: 0;
+  }
+  
+  .carousel-button.next {
+    position: absolute;
+    right: 0;
+  }
+  
+  /* Fullscreen Image Modal */
+  .fullscreen-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Smooth Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .image-container-gallery {
+      width: 320px;
+      height: 220px;
+    }
+    .carousel-content {
+      max-width: 100%;
+    }
+    .carousel-button {
+      font-size: 18px;
+      padding: 8px 12px;
+    }
+  }
+  

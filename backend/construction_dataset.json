@@ -1,0 +1,628 @@
+[
+    {
+        "query": "What is the estimated cost for a 3bhk property in a urban area of size 4706 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 873 units. Foundation cost: 96543 units, architectural complexity cost: 34434 units. Labor costs for construction include: hand pile works (397 units), masonry (1272 units), tile fitting (583 units), plumbing (401 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 1871 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 663 units. Foundation cost: 139471 units, architectural complexity cost: 23699 units. Labor costs for construction include: hand pile works (368 units), masonry (801 units), tile fitting (818 units), plumbing (828 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 4259 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3658 units. Foundation cost: 153220 units, architectural complexity cost: 25603 units. Labor costs for construction include: hand pile works (282 units), masonry (1316 units), tile fitting (890 units), plumbing (767 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 3159 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4213 units. Foundation cost: 63653 units, architectural complexity cost: 20604 units. Labor costs for construction include: hand pile works (129 units), masonry (1394 units), tile fitting (1040 units), plumbing (465 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a suburban area of size 2849 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4674 units. Foundation cost: 123326 units, architectural complexity cost: 17965 units. Labor costs for construction include: hand pile works (181 units), masonry (1099 units), tile fitting (1030 units), plumbing (544 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a suburban area of size 3859 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2928 units. Foundation cost: 56649 units, architectural complexity cost: 21859 units. Labor costs for construction include: hand pile works (296 units), masonry (909 units), tile fitting (947 units), plumbing (932 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a rural area of size 1025 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 1627 units. Foundation cost: 185415 units, architectural complexity cost: 30587 units. Labor costs for construction include: hand pile works (126 units), masonry (1245 units), tile fitting (618 units), plumbing (609 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 501 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2234 units. Foundation cost: 102073 units, architectural complexity cost: 13468 units. Labor costs for construction include: hand pile works (225 units), masonry (803 units), tile fitting (868 units), plumbing (847 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 3566 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 3736 units. Foundation cost: 69746 units, architectural complexity cost: 40192 units. Labor costs for construction include: hand pile works (401 units), masonry (588 units), tile fitting (1193 units), plumbing (551 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 2997 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 1442 units. Foundation cost: 123519 units, architectural complexity cost: 19510 units. Labor costs for construction include: hand pile works (492 units), masonry (1060 units), tile fitting (691 units), plumbing (786 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a suburban area of size 2777 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4958 units. Foundation cost: 189906 units, architectural complexity cost: 44236 units. Labor costs for construction include: hand pile works (397 units), masonry (654 units), tile fitting (783 units), plumbing (600 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a urban area of size 4098 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 2007 units. Foundation cost: 131582 units, architectural complexity cost: 24511 units. Labor costs for construction include: hand pile works (315 units), masonry (557 units), tile fitting (517 units), plumbing (931 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a rural area of size 3136 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1853 units. Foundation cost: 129208 units, architectural complexity cost: 10449 units. Labor costs for construction include: hand pile works (193 units), masonry (1408 units), tile fitting (520 units), plumbing (729 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a urban area of size 4276 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1776 units. Foundation cost: 168976 units, architectural complexity cost: 37821 units. Labor costs for construction include: hand pile works (403 units), masonry (528 units), tile fitting (1088 units), plumbing (858 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a urban area of size 2067 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2541 units. Foundation cost: 116743 units, architectural complexity cost: 35583 units. Labor costs for construction include: hand pile works (443 units), masonry (762 units), tile fitting (731 units), plumbing (640 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 4682 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4168 units. Foundation cost: 194570 units, architectural complexity cost: 48648 units. Labor costs for construction include: hand pile works (299 units), masonry (515 units), tile fitting (998 units), plumbing (529 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a rural area of size 2129 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4172 units. Foundation cost: 145744 units, architectural complexity cost: 31714 units. Labor costs for construction include: hand pile works (265 units), masonry (596 units), tile fitting (714 units), plumbing (491 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 682 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 1031 units. Foundation cost: 140302 units, architectural complexity cost: 17254 units. Labor costs for construction include: hand pile works (297 units), masonry (1158 units), tile fitting (1096 units), plumbing (500 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 4204 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 3642 units. Foundation cost: 100651 units, architectural complexity cost: 29375 units. Labor costs for construction include: hand pile works (480 units), masonry (721 units), tile fitting (1127 units), plumbing (856 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 2692 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 814 units. Foundation cost: 91178 units, architectural complexity cost: 16324 units. Labor costs for construction include: hand pile works (447 units), masonry (707 units), tile fitting (924 units), plumbing (722 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 2533 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4347 units. Foundation cost: 131497 units, architectural complexity cost: 12990 units. Labor costs for construction include: hand pile works (384 units), masonry (1042 units), tile fitting (752 units), plumbing (921 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a suburban area of size 2602 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 851 units. Foundation cost: 98366 units, architectural complexity cost: 22843 units. Labor costs for construction include: hand pile works (367 units), masonry (1302 units), tile fitting (515 units), plumbing (780 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 822 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 736 units. Foundation cost: 102907 units, architectural complexity cost: 39306 units. Labor costs for construction include: hand pile works (179 units), masonry (1298 units), tile fitting (551 units), plumbing (401 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a suburban area of size 2623 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 1968 units. Foundation cost: 97684 units, architectural complexity cost: 25823 units. Labor costs for construction include: hand pile works (411 units), masonry (1479 units), tile fitting (1144 units), plumbing (462 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 550 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4636 units. Foundation cost: 132019 units, architectural complexity cost: 13988 units. Labor costs for construction include: hand pile works (461 units), masonry (867 units), tile fitting (752 units), plumbing (990 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 1625 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4392 units. Foundation cost: 53231 units, architectural complexity cost: 27973 units. Labor costs for construction include: hand pile works (395 units), masonry (1222 units), tile fitting (696 units), plumbing (782 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a urban area of size 574 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 4159 units. Foundation cost: 54843 units, architectural complexity cost: 31490 units. Labor costs for construction include: hand pile works (314 units), masonry (630 units), tile fitting (586 units), plumbing (561 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 796 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3765 units. Foundation cost: 73965 units, architectural complexity cost: 39965 units. Labor costs for construction include: hand pile works (357 units), masonry (922 units), tile fitting (442 units), plumbing (997 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 4784 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 3224 units. Foundation cost: 73935 units, architectural complexity cost: 31152 units. Labor costs for construction include: hand pile works (418 units), masonry (738 units), tile fitting (874 units), plumbing (954 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a suburban area of size 2943 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4576 units. Foundation cost: 56053 units, architectural complexity cost: 41567 units. Labor costs for construction include: hand pile works (237 units), masonry (928 units), tile fitting (955 units), plumbing (989 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 4465 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4833 units. Foundation cost: 118320 units, architectural complexity cost: 14223 units. Labor costs for construction include: hand pile works (225 units), masonry (886 units), tile fitting (629 units), plumbing (900 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a urban area of size 2849 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2405 units. Foundation cost: 81987 units, architectural complexity cost: 16879 units. Labor costs for construction include: hand pile works (141 units), masonry (1166 units), tile fitting (924 units), plumbing (525 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 537 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2518 units. Foundation cost: 163183 units, architectural complexity cost: 28198 units. Labor costs for construction include: hand pile works (366 units), masonry (990 units), tile fitting (774 units), plumbing (518 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a rural area of size 1684 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 3476 units. Foundation cost: 165329 units, architectural complexity cost: 12928 units. Labor costs for construction include: hand pile works (194 units), masonry (566 units), tile fitting (555 units), plumbing (530 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 4260 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2310 units. Foundation cost: 94533 units, architectural complexity cost: 18633 units. Labor costs for construction include: hand pile works (446 units), masonry (1343 units), tile fitting (873 units), plumbing (958 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 4769 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1229 units. Foundation cost: 73269 units, architectural complexity cost: 30511 units. Labor costs for construction include: hand pile works (240 units), masonry (1202 units), tile fitting (821 units), plumbing (984 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 3855 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2407 units. Foundation cost: 50039 units, architectural complexity cost: 27807 units. Labor costs for construction include: hand pile works (205 units), masonry (652 units), tile fitting (1062 units), plumbing (992 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 1408 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4417 units. Foundation cost: 121260 units, architectural complexity cost: 41716 units. Labor costs for construction include: hand pile works (218 units), masonry (1289 units), tile fitting (587 units), plumbing (322 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a urban area of size 627 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 589 units. Foundation cost: 160193 units, architectural complexity cost: 38040 units. Labor costs for construction include: hand pile works (269 units), masonry (656 units), tile fitting (744 units), plumbing (382 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a rural area of size 598 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4780 units. Foundation cost: 122142 units, architectural complexity cost: 25923 units. Labor costs for construction include: hand pile works (253 units), masonry (502 units), tile fitting (845 units), plumbing (395 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a rural area of size 1483 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4587 units. Foundation cost: 183876 units, architectural complexity cost: 48152 units. Labor costs for construction include: hand pile works (364 units), masonry (1180 units), tile fitting (878 units), plumbing (342 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 4296 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 1618 units. Foundation cost: 90257 units, architectural complexity cost: 23052 units. Labor costs for construction include: hand pile works (461 units), masonry (987 units), tile fitting (1047 units), plumbing (903 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 3505 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 846 units. Foundation cost: 192141 units, architectural complexity cost: 24362 units. Labor costs for construction include: hand pile works (391 units), masonry (688 units), tile fitting (1195 units), plumbing (543 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a urban area of size 825 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 1963 units. Foundation cost: 79047 units, architectural complexity cost: 43670 units. Labor costs for construction include: hand pile works (293 units), masonry (589 units), tile fitting (1060 units), plumbing (906 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 1052 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 2490 units. Foundation cost: 177635 units, architectural complexity cost: 18019 units. Labor costs for construction include: hand pile works (176 units), masonry (1433 units), tile fitting (655 units), plumbing (385 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 562 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2684 units. Foundation cost: 106740 units, architectural complexity cost: 47610 units. Labor costs for construction include: hand pile works (360 units), masonry (932 units), tile fitting (691 units), plumbing (898 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a urban area of size 1764 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 1799 units. Foundation cost: 120101 units, architectural complexity cost: 47330 units. Labor costs for construction include: hand pile works (481 units), masonry (790 units), tile fitting (569 units), plumbing (737 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 3307 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3078 units. Foundation cost: 193036 units, architectural complexity cost: 14320 units. Labor costs for construction include: hand pile works (246 units), masonry (761 units), tile fitting (604 units), plumbing (883 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 2123 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1066 units. Foundation cost: 180349 units, architectural complexity cost: 31235 units. Labor costs for construction include: hand pile works (350 units), masonry (687 units), tile fitting (714 units), plumbing (641 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a rural area of size 3810 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 535 units. Foundation cost: 162668 units, architectural complexity cost: 29980 units. Labor costs for construction include: hand pile works (425 units), masonry (754 units), tile fitting (630 units), plumbing (327 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 4009 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 4476 units. Foundation cost: 122094 units, architectural complexity cost: 18057 units. Labor costs for construction include: hand pile works (225 units), masonry (869 units), tile fitting (1136 units), plumbing (521 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 3282 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 1163 units. Foundation cost: 124568 units, architectural complexity cost: 29914 units. Labor costs for construction include: hand pile works (365 units), masonry (1402 units), tile fitting (700 units), plumbing (456 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 992 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2197 units. Foundation cost: 142420 units, architectural complexity cost: 40733 units. Labor costs for construction include: hand pile works (103 units), masonry (936 units), tile fitting (621 units), plumbing (337 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a suburban area of size 2899 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3433 units. Foundation cost: 60834 units, architectural complexity cost: 47047 units. Labor costs for construction include: hand pile works (191 units), masonry (513 units), tile fitting (1051 units), plumbing (849 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 1394 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4361 units. Foundation cost: 166803 units, architectural complexity cost: 44951 units. Labor costs for construction include: hand pile works (432 units), masonry (1257 units), tile fitting (984 units), plumbing (528 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 1708 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 3369 units. Foundation cost: 109825 units, architectural complexity cost: 23689 units. Labor costs for construction include: hand pile works (191 units), masonry (799 units), tile fitting (456 units), plumbing (790 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 2846 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2649 units. Foundation cost: 195949 units, architectural complexity cost: 47124 units. Labor costs for construction include: hand pile works (368 units), masonry (555 units), tile fitting (1180 units), plumbing (731 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 2342 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2073 units. Foundation cost: 136035 units, architectural complexity cost: 25503 units. Labor costs for construction include: hand pile works (177 units), masonry (961 units), tile fitting (1165 units), plumbing (807 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 4428 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2944 units. Foundation cost: 195956 units, architectural complexity cost: 14584 units. Labor costs for construction include: hand pile works (252 units), masonry (1228 units), tile fitting (401 units), plumbing (539 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 3284 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4791 units. Foundation cost: 128445 units, architectural complexity cost: 11636 units. Labor costs for construction include: hand pile works (378 units), masonry (536 units), tile fitting (519 units), plumbing (554 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 4899 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 3928 units. Foundation cost: 195974 units, architectural complexity cost: 22871 units. Labor costs for construction include: hand pile works (209 units), masonry (1011 units), tile fitting (494 units), plumbing (865 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a rural area of size 898 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 3864 units. Foundation cost: 65634 units, architectural complexity cost: 23366 units. Labor costs for construction include: hand pile works (102 units), masonry (597 units), tile fitting (811 units), plumbing (504 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 3927 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3324 units. Foundation cost: 88525 units, architectural complexity cost: 40865 units. Labor costs for construction include: hand pile works (130 units), masonry (551 units), tile fitting (975 units), plumbing (864 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a suburban area of size 4744 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2482 units. Foundation cost: 61391 units, architectural complexity cost: 15262 units. Labor costs for construction include: hand pile works (182 units), masonry (560 units), tile fitting (1034 units), plumbing (529 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 3977 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 579 units. Foundation cost: 118893 units, architectural complexity cost: 26609 units. Labor costs for construction include: hand pile works (215 units), masonry (1486 units), tile fitting (1014 units), plumbing (326 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a suburban area of size 4786 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 3798 units. Foundation cost: 72113 units, architectural complexity cost: 21746 units. Labor costs for construction include: hand pile works (384 units), masonry (794 units), tile fitting (999 units), plumbing (365 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a suburban area of size 4364 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4208 units. Foundation cost: 139549 units, architectural complexity cost: 15767 units. Labor costs for construction include: hand pile works (129 units), masonry (754 units), tile fitting (1094 units), plumbing (407 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a rural area of size 4731 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 4125 units. Foundation cost: 57053 units, architectural complexity cost: 28384 units. Labor costs for construction include: hand pile works (102 units), masonry (1084 units), tile fitting (857 units), plumbing (343 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 3778 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2639 units. Foundation cost: 197373 units, architectural complexity cost: 48326 units. Labor costs for construction include: hand pile works (496 units), masonry (1499 units), tile fitting (521 units), plumbing (411 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 3055 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4758 units. Foundation cost: 101970 units, architectural complexity cost: 43677 units. Labor costs for construction include: hand pile works (453 units), masonry (725 units), tile fitting (688 units), plumbing (634 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a rural area of size 1513 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 3664 units. Foundation cost: 60160 units, architectural complexity cost: 18986 units. Labor costs for construction include: hand pile works (435 units), masonry (1307 units), tile fitting (406 units), plumbing (580 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 3991 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3855 units. Foundation cost: 164540 units, architectural complexity cost: 19069 units. Labor costs for construction include: hand pile works (104 units), masonry (1147 units), tile fitting (1022 units), plumbing (776 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 1926 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 766 units. Foundation cost: 98545 units, architectural complexity cost: 20858 units. Labor costs for construction include: hand pile works (372 units), masonry (784 units), tile fitting (506 units), plumbing (338 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 1528 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1842 units. Foundation cost: 178431 units, architectural complexity cost: 41275 units. Labor costs for construction include: hand pile works (352 units), masonry (739 units), tile fitting (658 units), plumbing (853 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 3592 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 3301 units. Foundation cost: 110366 units, architectural complexity cost: 49052 units. Labor costs for construction include: hand pile works (187 units), masonry (816 units), tile fitting (457 units), plumbing (824 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 4355 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2980 units. Foundation cost: 72693 units, architectural complexity cost: 21642 units. Labor costs for construction include: hand pile works (377 units), masonry (1333 units), tile fitting (798 units), plumbing (538 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 3882 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 4099 units. Foundation cost: 120611 units, architectural complexity cost: 49686 units. Labor costs for construction include: hand pile works (188 units), masonry (772 units), tile fitting (1113 units), plumbing (312 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a urban area of size 3386 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4218 units. Foundation cost: 74200 units, architectural complexity cost: 29148 units. Labor costs for construction include: hand pile works (108 units), masonry (903 units), tile fitting (1060 units), plumbing (606 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a suburban area of size 2855 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2254 units. Foundation cost: 147809 units, architectural complexity cost: 42739 units. Labor costs for construction include: hand pile works (403 units), masonry (1017 units), tile fitting (721 units), plumbing (653 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 4419 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2743 units. Foundation cost: 175816 units, architectural complexity cost: 35563 units. Labor costs for construction include: hand pile works (379 units), masonry (1320 units), tile fitting (825 units), plumbing (917 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 3927 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 3534 units. Foundation cost: 192342 units, architectural complexity cost: 29674 units. Labor costs for construction include: hand pile works (342 units), masonry (1338 units), tile fitting (1078 units), plumbing (776 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a suburban area of size 4177 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 3963 units. Foundation cost: 122023 units, architectural complexity cost: 28344 units. Labor costs for construction include: hand pile works (278 units), masonry (730 units), tile fitting (471 units), plumbing (601 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a urban area of size 4931 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 1124 units. Foundation cost: 73241 units, architectural complexity cost: 37332 units. Labor costs for construction include: hand pile works (402 units), masonry (639 units), tile fitting (766 units), plumbing (510 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 4825 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4744 units. Foundation cost: 186457 units, architectural complexity cost: 20633 units. Labor costs for construction include: hand pile works (157 units), masonry (1065 units), tile fitting (863 units), plumbing (857 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 3145 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3303 units. Foundation cost: 77009 units, architectural complexity cost: 47138 units. Labor costs for construction include: hand pile works (147 units), masonry (658 units), tile fitting (1108 units), plumbing (394 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a rowhouse property in a rural area of size 1959 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3646 units. Foundation cost: 162230 units, architectural complexity cost: 27953 units. Labor costs for construction include: hand pile works (269 units), masonry (1065 units), tile fitting (637 units), plumbing (829 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a urban area of size 601 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 2873 units. Foundation cost: 167104 units, architectural complexity cost: 19246 units. Labor costs for construction include: hand pile works (378 units), masonry (565 units), tile fitting (490 units), plumbing (907 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 2532 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 2208 units. Foundation cost: 79426 units, architectural complexity cost: 41104 units. Labor costs for construction include: hand pile works (181 units), masonry (801 units), tile fitting (585 units), plumbing (436 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 4637 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4969 units. Foundation cost: 178251 units, architectural complexity cost: 23585 units. Labor costs for construction include: hand pile works (388 units), masonry (1484 units), tile fitting (673 units), plumbing (459 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 3bhk property in a rural area of size 1693 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 4869 units. Foundation cost: 91435 units, architectural complexity cost: 20124 units. Labor costs for construction include: hand pile works (343 units), masonry (1456 units), tile fitting (1178 units), plumbing (400 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 3125 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 1047 units. Foundation cost: 160022 units, architectural complexity cost: 30589 units. Labor costs for construction include: hand pile works (115 units), masonry (556 units), tile fitting (1129 units), plumbing (615 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a urban area of size 3616 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 3813 units. Foundation cost: 109432 units, architectural complexity cost: 33951 units. Labor costs for construction include: hand pile works (172 units), masonry (896 units), tile fitting (878 units), plumbing (570 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a urban area of size 562 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 4200 units. Foundation cost: 110170 units, architectural complexity cost: 45838 units. Labor costs for construction include: hand pile works (419 units), masonry (782 units), tile fitting (953 units), plumbing (301 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 4041 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 2304 units. Foundation cost: 134431 units, architectural complexity cost: 48538 units. Labor costs for construction include: hand pile works (198 units), masonry (1251 units), tile fitting (919 units), plumbing (360 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 4553 sq. ft. with 3 floors?",
+        "response": "The estimated material cost is 1874 units. Foundation cost: 147928 units, architectural complexity cost: 30754 units. Labor costs for construction include: hand pile works (157 units), masonry (1103 units), tile fitting (712 units), plumbing (413 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a rural area of size 2183 sq. ft. with 1 floors?",
+        "response": "The estimated material cost is 900 units. Foundation cost: 126555 units, architectural complexity cost: 45196 units. Labor costs for construction include: hand pile works (237 units), masonry (608 units), tile fitting (694 units), plumbing (992 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 1bhk property in a urban area of size 4803 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 4663 units. Foundation cost: 57522 units, architectural complexity cost: 47288 units. Labor costs for construction include: hand pile works (224 units), masonry (901 units), tile fitting (817 units), plumbing (967 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 2bhk property in a suburban area of size 3839 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 536 units. Foundation cost: 82803 units, architectural complexity cost: 21825 units. Labor costs for construction include: hand pile works (358 units), masonry (1010 units), tile fitting (1116 units), plumbing (555 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a bungalow property in a suburban area of size 4226 sq. ft. with 2 floors?",
+        "response": "The estimated material cost is 1945 units. Foundation cost: 122162 units, architectural complexity cost: 26646 units. Labor costs for construction include: hand pile works (267 units), masonry (907 units), tile fitting (660 units), plumbing (687 units), and more."
+    },
+    {
+        "query": "What is the estimated cost for a 4bhk property in a rural area of size 3274 sq. ft. with 4 floors?",
+        "response": "The estimated material cost is 3860 units. Foundation cost: 178277 units, architectural complexity cost: 17242 units. Labor costs for construction include: hand pile works (412 units), masonry (913 units), tile fitting (1155 units), plumbing (316 units), and more."
+    },
+    {
+      "query": "How do I choose the right foundation for my building?",
+      "response": "The foundation choice depends on factors like soil type, building height, and load-bearing requirements. A structural engineer can help determine the best type."
+    },
+{
+      "query": "What materials are used in the construction?",
+      "response": "The materials used in construction include concrete, steel, timber, and glass, depending on the structure and purpose of the building."
+    },
+ {
+      "query": "What are the safety measures at a construction site?",
+      "response": "Safety measures include wearing personal protective equipment (PPE), ensuring proper scaffolding, conducting safety drills, and monitoring for hazards like falling objects or equipment malfunctions."
+    },
+{
+      "query": "Where can I check the progress of the construction?",
+      "response": "You can check the progress of the construction in the 'Scheduling' module."
+    },
+{
+      "query": "How do I manage the project schedule?",
+      "response": "You can manage the project schedule through the 'Scheduling' module."
+    },
+ {
+      "query": "Where can I upload my documents?",
+      "response": "You can upload your documents in the 'Document Management' module."
+    },
+    {
+      "query": "hi",
+      "response": "Hello! How can I assist you with your construction project?"
+    },
+    {
+      "query": "hii",
+      "response": "Hi there! How can I help you today?"
+    },
+    {
+      "query": "hello",
+      "response": "Hi! What can I do for you?"
+    },
+    {
+      "query": "how are you",
+      "response": "I'm just a bot, but I'm ready to help with any construction-related queries!"
+    },
+    {
+      "query": "hlo",
+      "response": "Hello! How can I assist you?"
+    },
+    {
+      "query": "bye",
+      "response": "Goodbye! Have a great day!"
+    },
+    {
+      "query": "thanks",
+      "response": "You're welcome! Let me know if you need further help."
+    },
+    {
+      "query": "thank you",
+      "response": "Glad I could assist! Feel free to ask more."
+    },
+    {
+      "query": "what's up",
+      "response": "Not much! Just here to assist with construction queries."
+    },
+    {
+
+    
+        "query": "How long does it take to build a house?",
+        "response": "It typically takes 6 to 8 months to build a house, depending on weather conditions, labor availability, and material supply."
+    },
+    {
+        "query": "Best materials for roofing?",
+        "response": "Common roofing materials include asphalt shingles, metal sheets, clay tiles, and concrete tiles. Asphalt is cost-effective, while metal and clay offer durability."
+    },
+    {
+        "query": "Cost of cement per bag?",
+        "response": "The cost of a cement bag (50 kg) typically ranges from 300 to 450 units depending on the brand and location."
+    },
+    {
+        "query": "Best waterproofing methods?",
+        "response": "Popular waterproofing methods include cementitious waterproofing, liquid waterproofing membrane, bituminous coating, and polyurethane liquid membrane."
+    },
+    {
+        "query": "Foundation types?",
+        "response": "Common foundation types include shallow foundations (strip footing, raft foundation) and deep foundations (pile foundation, drilled shafts)."
+    },
+    {
+        "query": "Labor cost for tile fitting?",
+        "response": "Labor cost for tile fitting ranges from 30 to 60 units per square foot, depending on the tile type and complexity."
+    },
+    {
+        "query": "Concrete mixing ratio?",
+        "response": "A standard concrete mix ratio is 1 part cement, 2 parts sand, and 4 parts aggregate (1:2:4). Adjust based on structural requirements."
+    },
+    {
+        "query": "How to calculate building height?",
+        "response": "Building height is calculated from the base level to the topmost point of the structure, including parapet walls and rooftop features."
+    },
+    {
+        "query": "Best type of paint for exterior walls?",
+        "response": "Acrylic emulsion paint and elastomeric paint are suitable for exterior walls as they resist weather and UV damage."
+    },
+    {
+        "query": "Waterproofing?",
+        "response": "Waterproofing is essential to prevent water seepage. Cementitious and bituminous coatings are effective solutions."
+    },
+    {
+        "query": "Plastering?",
+        "response": "Plastering smoothens the wall surface and protects it from moisture. A typical ratio for cement plaster is 1:6 (cement to sand)."
+    },
+    {
+        "query": "Steel reinforcement?",
+        "response": "Steel reinforcement strengthens concrete structures. Commonly used types include TMT (Thermo-Mechanically Treated) bars."
+    },
+    {
+        "query": "Construction permit?",
+        "response": "A construction permit is issued by the local municipal authority after reviewing the building plan and compliance documents."
+    },
+    {
+        "query": "Best flooring for high traffic areas?",
+        "response": "Ceramic tiles, vitrified tiles, and concrete flooring are suitable for high-traffic areas due to their durability."
+    },
+    {
+        "query": "Electric wiring?",
+        "response": "Use insulated copper wiring for electrical installations. Ensure proper grounding and circuit breaker protection."
+    },
+    {
+        "query": "Septic tank?",
+        "response": "A septic tank is an underground chamber that collects and treats sewage using anaerobic processes."
+    },
+    {
+        "query": "Best windows for insulation?",
+        "response": "Double-glazed or UPVC windows provide excellent insulation against heat and noise."
+    },
+    {
+        "query": "Building codes?",
+        "response": "Building codes vary by location and cover aspects like structural safety, fire resistance, and accessibility."
+    },
+    {
+        "query": "Plumbing materials?",
+        "response": "Common plumbing materials include PVC, CPVC, copper, and PEX pipes."
+    },
+    {
+        "query": "Sand?",
+        "response": "Sand is used in concrete and mortar. River sand and crushed sand are commonly used in construction."
+    },
+    {
+        "query": "What is curing?",
+        "response": "Curing is the process of maintaining adequate moisture in concrete to ensure proper strength development."
+    },
+    {
+        "query": "Excavation?",
+        "response": "Excavation involves removing soil to prepare for foundation or basement construction."
+    },
+    {
+        "query": "construction",
+        "response": "Construction refers to the process of building infrastructure like houses, buildings, roads, and bridges. What are your questions related to construction?"
+    },
+    {
+        "query": "cost",
+        "response": "Construction costs include material, labor, design, and legal costs. Costs vary depending on the project size and complexity."
+    },
+    {
+        "query": "construction industry",
+        "response": "The construction industry involves planning, designing, and executing infrastructure projects. It includes residential, commercial, and industrial sectors."
+    },
+    {
+        "query": "materials",
+        "response": "Common construction materials include cement, concrete, bricks, sand, steel, and timber."
+    },
+    {
+        "query": "foundation",
+        "response": "A foundation is the base of a structure that transfers the load to the ground. Types include shallow and deep foundations."
+    },
+    {
+        "query": "flooring",
+        "response": "Popular flooring options include ceramic tiles, marble, wooden planks, and vinyl sheets."
+    },
+    {
+        "query": "architecture",
+        "response": "Architecture involves designing buildings and structures to be both functional and aesthetically pleasing."
+    },
+    {
+        "query": "roofing",
+        "response": "Common roofing materials include asphalt shingles, metal sheets, and clay tiles."
+    },
+    {
+        "query": "labor cost",
+        "response": "Labor costs include wages for masons, carpenters, electricians, and other skilled workers."
+    },
+    {
+        "query": "plumbing",
+        "response": "Plumbing refers to installing pipes, drains, and fittings for water supply and waste removal."
+    },
+    {
+        "query": "wiring",
+        "response": "Electrical wiring involves installing insulated copper or aluminum wires to provide power."
+    },
+    {
+        "query": "permit",
+        "response": "A construction permit is required from the local authority before starting a building project."
+    },
+    {
+        "query": "excavation",
+        "response": "Excavation involves removing soil and rock to prepare the site for foundation work."
+    },
+    {
+        "query": "reinforcement",
+        "response": "Steel reinforcement bars (TMT) are used to strengthen concrete structures."
+    },
+    {
+        "query": "curing",
+        "response": "Curing is the process of maintaining moisture in concrete to ensure proper strength development."
+    },
+    {
+        "query": "waterproofing",
+        "response": "Waterproofing prevents water seepage into structures. Common methods include bituminous coating and cementitious waterproofing."
+    },
+    {
+        "query": "steel",
+        "response": "Steel is used for reinforcement and structural support due to its strength and durability."
+    },
+    {
+        "query": "cement",
+        "response": "Cement is a binding material used in concrete and mortar."
+    },
+    {
+        "query": "Help",
+        "response": "How can I assist you with construction related doubts?"
+    }
+]

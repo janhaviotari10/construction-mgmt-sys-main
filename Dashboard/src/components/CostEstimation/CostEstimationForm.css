@@ -1,0 +1,81 @@
+/* CostEstimation.css */
+.cost-estimation-form {
+  background: white;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.cost-estimation-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.cost-estimation-form label.full-width {
+  grid-column: span 2;
+}
+
+.cost-estimation-form input,
+.cost-estimation-form select {
+  padding: 0.75rem;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.cost-estimation-form input:focus,
+.cost-estimation-form select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(42, 92, 139, 0.2);
+}
+
+.cost-estimation-form button {
+  grid-column: span 2;
+  padding: 0.75rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+}
+
+.cost-estimation-form button:hover {
+  background: var(--primary-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.error-message {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cost-estimation-form {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  
+  .cost-estimation-form label.full-width {
+    grid-column: span 1;
+  }
+  
+  .cost-estimation-form button {
+    grid-column: span 1;
+  }
+}

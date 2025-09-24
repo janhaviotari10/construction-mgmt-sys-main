@@ -1,0 +1,57 @@
+/* Add to CostEstimation.css */
+.result-display {
+  background: white;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-display h2 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--light-gray);
+  padding-bottom: 0.5rem;
+}
+
+.result-display h3 {
+  color: var(--dark);
+  font-size: 1.25rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.result-display p {
+  font-size: 1.1rem;
+  color: var(--dark);
+  background: var(--light);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+}
+
+/* Chart container styling */
+.result-display .chart-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--border-radius);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .result-display {
+    padding: 1.5rem;
+  }
+  
+  .result-display h2 {
+    font-size: 1.3rem;
+  }
+  
+  .result-display h3 {
+    font-size: 1.15rem;
+  }
+}

@@ -1,0 +1,206 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;}
+
+/* General Section Styling */
+.scroll-section {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(50px); /* Slight offset */
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Fade and slide effect */
+}
+
+/* First Section - Gradient Black Background (Full screen height) */
+.scroll-section:first-child {
+  width: 100%;
+  height: 100vh; /* Make it fill the full screen height */
+  padding-top: 50px; /* Space for navbar */
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(to right, #1e1d1d,#000000); /* Gradient black background */
+}
+
+/* Make sure text in first section is white */
+.scroll-section:first-child .content h1,
+.scroll-section:first-child .content p {
+  color: #ffffff;
+}
+
+/* Second and Third Sections - Default White Background */
+.scroll-section:nth-child(2),
+.scroll-section:nth-child(3) {
+  background-color: #ffffff; /* White background */
+  color: #000; /* Default text color */
+  padding: 50px; /* Add padding for spacing */
+}
+
+/* Section Visibility on Scroll */
+.scroll-section.visible {
+  opacity: 1;
+  transform: translateY(0); /* Reset position */
+}
+
+.scroll-section .content {
+  flex: 1;
+  padding: 20px;
+  transform: translateX(-50px); /* Text slides in from the left */
+  opacity: 0; /* Hidden initially */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  color: #000;
+}
+
+.scroll-section.visible .content {
+  transform: translateX(0); /* Slide into place */
+  opacity: 1; /* Fade-in effect */
+}
+
+.scroll-section .image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px); /* Image fades up */
+  opacity: 0; /* Hidden initially */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.scroll-section.visible .image-container {
+  transform: translateY(0); /* Image moves up */
+  opacity: 1; /* Fade-in effect */
+}
+
+/* Image Styling */
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(29, 28, 28, 0.2);
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .scroll-section {
+    flex-direction: column; /* Stack content vertically */
+    text-align: center;
+    padding: 20px; /* Adjust padding to reduce extra space */
+  }
+
+  .content {
+    padding: 10px;
+    margin-bottom: 10px; /* Add bottom margin to give space between content and image */
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .image-container img {
+    max-width: 80%;
+    margin: 0 auto 20px; /* Add margin below the image to reduce gap */
+  }
+}
+
+/* Social Icons Container */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Hover Effect for Icons */
+.social-icons a {
+  color: #000;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #302d2d; /* Light background for the footer */
+  padding: 50px 0; /* Spacing for top and bottom */
+  color: #fdfbfb; /* Default text color */
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #ccc; /* A subtle border to separate the footer from content */
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-around; /* Distribute the columns evenly */
+  flex-wrap: wrap; /* Ensure the layout stacks on smaller screens */
+  margin-bottom: 20px; /* Add space before the copyright text */
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px; /* Ensure each column has a minimum width */
+  padding: 10px;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem; /* Larger font size for headers */
+  margin-bottom: 10px; /* Space between heading and list */
+}
+
+.footer-column ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0; /* Add space between list items */
+}
+
+.footer-column ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Link color */
+}
+
+.footer-column ul li a:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+
+/* Footer Copy */
+.footer-copy {
+  font-size: 1rem;
+  color: #a8a1a1; /* Subtle text color */
+  margin-top: 20px; /* Add space above the copyright text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column; /* Stack the footer columns vertically */
+    align-items: center; /* Center the content */
+  }
+
+  .footer-column {
+    min-width: auto;
+    text-align: center; /* Center the text in smaller screens */
+  }
+}

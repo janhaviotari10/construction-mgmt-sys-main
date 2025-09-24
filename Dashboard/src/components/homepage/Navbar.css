@@ -1,0 +1,95 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: rgba(22, 21, 21, 0.8); /* Transparent black background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  position: fixed; /* Keeps the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the navbar stays on top */
+  padding: 10px 0; /* Adjust padding as needed */
+  height: 60px;
+}
+
+/* Logo */
+.logo {
+  width: 40px; /* Adjust the size */
+  height: 40px;
+  margin-right: 8px; /* Space between logo and text */
+  vertical-align: middle; /* Align with the text */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  align-items: center; /* Ensures logo and text align properly */
+  color: #fff !important; /* Force white text */
+  text-decoration: none; /* Remove underline for brand */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;  transition: color 0.3s ease-in-out; /* Smooth transition for color */
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #4e87f2 !important; /* Golden-yellow hover effect */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: #fff !important; /* Force white text for all links */
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* No underline by default */
+  position: relative; /* Needed for underline effect */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4e87f2; /* Golden-yellow hover effect */
+}
+/* Add space between last link and button */
+.navbar-nav .nav-link:last-child {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+
+
+.navbar-nav .nav-link::after {
+  content: ""; /* Empty content for underline */
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Position underline slightly below text */
+  width: 0;
+  height: 2px;
+  background-color: #4e87f2; /* Golden-yellow underline */
+  transition: width 0.3s ease-in-out; /* Smooth expand effect */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Full-width underline on hover */
+}
+
+/* Custom styling for the Login button */
+.login-btn {
+  background-color: #4e87f2; /* Golden-yellow button */
+  color: black; /* Black text for contrast */
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #000; /* Black background on hover */
+  color: #4e87f2; /* Golden-yellow text */
+}
+
+/* Remove underline effect from login button */
+.login-btn::after {
+  content: none;
+}
+
+/* Add padding to the body to avoid overlap with navbar */
+body {
+  padding-top: 0px; /* Adjusted space for the fixed navbar */
+}

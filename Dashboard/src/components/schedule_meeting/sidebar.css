@@ -1,0 +1,111 @@
+/* Sidebar Styling */
+.sidebar {
+  width: 350px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Darker transparent background */
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -350px; /* Initially hidden */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+  transition: left 0.3s ease-in-out;
+  backdrop-filter: blur(15px); /* Increased blur effect */
+}
+
+/* Open sidebar */
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Added letter spacing for elegance */
+}
+
+/* Sidebar menu styling */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 24px; /* Slightly smaller font size */
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  margin: 5px 15px;
+  position: relative; /* For pseudo-element */
+}
+
+/* Hover effect */
+.sidebar ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Active link styling */
+.sidebar ul li a.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+/* Toggle Button */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(90deg, #d9dbdc, #48A9A6); /* Gradient background */
+  border: none;
+  color: white; /* White Icon */
+  font-size: 40px;
+  cursor: pointer;
+  padding: 14px 16px;
+  border-radius: 50%; /* Circular button */
+  z-index: 1000;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Hover effect on button */
+.toggle-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+}
+
+/* Move button when sidebar is open */
+.sidebar.open + .toggle-btn {
+  left: 270px;
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.meeting-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.meeting-list {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}

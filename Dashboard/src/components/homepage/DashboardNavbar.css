@@ -1,0 +1,130 @@
+/* Hamburger Icon */
+.hamburger-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0); /* Transparent white background */
+  color: rgb(17, 17, 17);
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2000; /* Ensure it stays above other content */
+  padding: 10px;
+  /*box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+/* When the sidebar is open, hide the hamburger icon */
+/* When the sidebar is open, hide the hamburger icon */
+/* When the sidebar is open, hide the hamburger icon */
+.dashboard-sidebar.open + .hamburger-icon {
+  opacity: 0; /* Hide hamburger icon */
+  pointer-events: none; /* Disable interaction with hidden icon */
+}
+
+/* Alternatively, if the hamburger icon is before the sidebar */
+
+/* If the hamburger icon is before the sidebar, use this selector */
+.dashboard-sidebar.open ~ .hamburger-icon {
+  opacity: 0; /* Hide hamburger icon */
+  pointer-events: none; /* Disable interaction with hidden icon */
+}
+/* Sidebar Drawer Container */
+.dashboard-sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Hidden off-screen initially */
+  width: 250px;
+  height: 100vh; /* Full height */
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  z-index: 1000; /* Ensure it overlays other elements */
+  transition: left 0.3s ease, box-shadow 0.3s ease; /* Smooth slide-in/out transition */
+}
+
+/* When the drawer is open */
+.dashboard-sidebar.open {
+  left: 0; /* Slide in */
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.7); /* Enhanced shadow when open */
+}
+/* Sidebar Logo */
+/* Sidebar Logo */
+.sidebar-logo-dash {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: white; /* Ensure this is set to white */
+}
+
+/* Ensure no other styles are overriding it */
+.dashboard-sidebar .sidebar-logo-dash {
+  color: white; /* Ensure this rule is applied */
+}
+
+/* If you want to target the h2 specifically */
+.dashboard-sidebar .sidebar-logo-dash h2 {
+  color: white; /* Ensure this rule is applied */
+  text-align: start;
+}
+
+
+
+/* Sidebar List */
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar-item {
+  margin-bottom: 15px;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Styling for Icons */
+.sidebar-link i {
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 22px; /* Icon size */
+}
+
+/* Hover Effect for Links */
+.sidebar-link:hover {
+  background-color: #2563eb; /* Lighter blue on hover */
+  color: black;
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-sidebar {
+    width: 200px;
+  }
+
+  .sidebar-link {
+    font-size: 16px;
+  }
+
+  .sidebar-link i {
+    font-size: 18px;
+  }
+}

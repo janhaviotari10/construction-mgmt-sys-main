@@ -1,0 +1,100 @@
+.expense-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  margin: 20px;
+  width: 95%; /* Buttons aligned with the table width */
+  margin: 0 auto; /* Center align container */
+  gap: 10px; /* Add spacing between buttons */
+}
+
+.add-expense-button {
+  background-color: #e6730f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.save-expense-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-expense-button:hover,
+.save-expense-button:hover {
+  background-color: #218838;
+}
+
+.expense-container {
+  flex: 1; /* Takes up remaining space below the navbar */
+  margin: 20px auto;
+  width: 100%; /* Occupy most of the screen width */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling for small screens */
+}
+
+.expense-table {
+  width: 100%; /* Full-width table */
+  border-collapse: collapse;
+}
+
+.expense-table th {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #2e3032; 
+  color: white;
+  font-weight: bold;
+}
+
+.expense-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.expense-table tr {
+  background-color: #f4f5f6; 
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+}
+
+.expense-table td input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #090909;
+  background-color: #f7f9fb; 
+  color: rgb(14, 14, 14);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.remove-button {
+  background-color: #c0392b; /* Red */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-button:hover {
+  background-color: #a93226; /* Darker Red */
+}

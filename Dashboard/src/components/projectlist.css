@@ -1,0 +1,281 @@
+/* projectlist.css */
+:root {
+  /* Color variables */
+  --primary: #2A5C8B;
+  --primary-light: #3A7CB9;
+  --secondary: #FF6B35;
+  --accent: #4ECDC4;
+  --light: #F7F9FC;
+  --dark: #2D3748;
+  --gray: #A0AEC0;
+  --light-gray: #EDF2F7;
+  --success: #48BB78;
+  --warning: #ED8936;
+  --danger: #E53E3E;
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Full page background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.projects-container {
+  background-color: var(--light);
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 2rem;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Navbar Styling */
+.navbar-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-title-project {
+  font-size: 1.75rem;
+  color: #000;
+  margin: 0;
+  font-weight: 700;
+}/* Updated Navbar Styling */
+.navbar-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background: white;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md); /* Stronger shadow for elevation */
+  width: 100%;
+}
+
+/* Navigation Links Container */
+.nav-links {
+  display: flex;
+  gap: 0.75rem; /* Reduced gap between links */
+}
+
+/* Navigation Link Buttons */
+.nav-button {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--primary); /* Added border */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  color: var(--primary); /* Primary color text */
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-width: 80px;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Active State (if needed) */
+.nav-button.active {
+  background: var(--primary);
+  color: white;
+}
+
+.dashboard-link,
+.home-link {
+  padding: 0.625rem 1.25rem;
+  border-radius: var(--border-radius);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--primary);
+  color: white;
+  font-size: 0.95rem;
+  margin-left: 0.5rem; /* Reduced from 1rem to 0.5rem */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dashboard-link:hover,
+.home-link:hover {
+  background: var(--primary-light);
+  transform: translateY(-1px);
+}
+
+/* Error Message */
+.error {
+  color: var(--danger);
+  background: rgba(229, 62, 62, 0.1);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--danger);
+}
+
+/* Projects List */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+/* Project Card */
+.project-card {
+  background: white;
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--primary);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.project-card h2 {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.project-card p {
+  color: var(--dark);
+  margin: 0.5rem 0 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.project-card p strong {
+  color: var(--dark);
+}
+
+/* Project Buttons */
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+
+.project-buttons button {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.project-buttons button:first-child {
+  background: var(--primary);
+  color: white;
+}
+
+.project-buttons button:first-child:hover {
+  background-color: rgb(31, 61, 106);;
+}
+
+.delete-button {
+  background: var(--danger);
+  color: white;
+}
+
+.delete-button:hover {
+  background: #C53030;
+}
+
+/* New Project Card */
+.new-project-card {
+  background: var(--light-gray);
+  border: 2px dashed var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.new-project-card h2 {
+  color: var(--accent);
+  text-align: center;
+}
+
+.new-project-card .project-buttons {
+  justify-content: center;
+}
+
+.new-project-card button {
+  background: var(--accent);
+  color: white;
+  min-width: 150px;
+}
+
+.new-project-card button:hover {
+  background: #3dbeb6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-project {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .dashboard-link,
+  .home-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container {
+    padding: 1rem;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .project-buttons button {
+    width: 100%;
+  }
+}

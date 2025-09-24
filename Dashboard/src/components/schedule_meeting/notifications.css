@@ -1,0 +1,73 @@
+/* Notification Container */
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Notification Icon */
+.notification-icon {
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(90deg, #e3e8e9, #545f5e); /* Gradient background */
+  padding: 12px; /* Increased padding for a larger clickable area */
+  border-radius: 50%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect on notification icon */
+.notification-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+}
+
+/* Badge for unread notifications */
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold; /* Bold text for better visibility */
+}
+
+/* Notification Dropdown */
+.notification-dropdown {
+  position: absolute;
+  top: 50px; /* Adjusted to provide more space */
+  right: 0;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
+  width: 300px; /* Increased width for better layout */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  z-index: 999; /* Ensure dropdown is above other elements */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* Notification Item */
+.notification-item {
+  padding: 12px; /* Increased padding for better spacing */
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover effect on notification items */
+.notification-item:hover {
+  background: rgba(0, 0, 0, 0.05); /* Subtle background change on hover */
+}
+
+/* Unread notification item */
+.notification-item.unread {
+  background: #f7f7f7; /* Light background for unread items */
+}
+
+/* Read notification item */
+.notification-item.read {
+  opacity: 0.6; /* Dimmed appearance for read items */
+}
